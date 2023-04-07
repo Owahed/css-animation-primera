@@ -1,0 +1,16 @@
+/* @keyframes hudai {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+.brown {
+  animation-name: hudai;
+  animation-duration: 2s;
+} */

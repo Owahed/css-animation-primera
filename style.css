@@ -1,0 +1,39 @@
+.ancient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.blueviolet {
+  height: 300px;
+  width: 300px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brown {
+  height: 50%;
+  width: 50%;
+  border-top: 5px solid yellow;
+
+  background-color: brown;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes move {
+  50% {
+    width: 0px;
+  }
+  100% {
+    width: 10%;
+  }
+}
+.brown {
+  animation-name: rotate, move;
+  animation-duration: 3s, 4s;
+}
