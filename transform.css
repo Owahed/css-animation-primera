@@ -1,16 +1,11 @@
-/* @keyframes hudai {
+@keyframes hudai {
   0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(100px);
-  }
-  100% {
-    transform: translateX(300px);
+    transform: rotate(-180deg);
   }
 }
-
 .brown {
   animation-name: hudai;
   animation-duration: 2s;
-} */
+  animation-iteration-count: 2;
+  animation-direction: reverse;
+}
